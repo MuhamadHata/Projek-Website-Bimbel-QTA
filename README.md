@@ -1,52 +1,41 @@
-<<<<<<< HEAD
-# Moodle
+# Projek Website Bimbel QTA
 
-<p align="center"><a href="https://moodle.org" target="_blank" title="Moodle Website">
-  <img src="https://raw.githubusercontent.com/moodle/moodle/main/.github/moodlelogo.svg" alt="The Moodle Logo">
-</a></p>
+Repositori ini berisi kode sumber dan aset desain untuk pengembangan platform pembelajaran digital (LMS) dan Company Profile **Bimbel QTA**. Proyek ini dibangun menggunakan basis Moodle untuk pengelolaan kursus dan sistem pembelajaran online.
 
-[Moodle][1] is the World's Open Source Learning Platform, widely used around the world by countless universities, schools, companies, and all manner of organisations and individuals.
+## 📌 Deskripsi Proyek
+Proyek ini bertujuan untuk menyediakan solusi digital bagi Bimbel QTA dalam mengelola kegiatan belajar mengajar, pendaftaran siswa, serta informasi layanan bimbingan belajar secara terintegrasi.
 
-Moodle is designed to allow educators, administrators and learners to create personalised learning environments with a single robust, secure and integrated system.
+## 📂 Struktur Folder Utama
+Berdasarkan struktur repositori, berikut adalah komponen utamanya:
+* `UI Bimbel QTA/`: Berisi mockup/tangkapan layar desain antarmuka (Beranda, LMS, Layanan, dll).
+* `Company Profile QTA/`: Aset dan dokumen terkait profil perusahaan.
+* `admin/`, `lib/`, `public/`: Folder inti sistem LMS (Moodle).
+* `.github/`: Konfigurasi alur kerja GitHub.
 
-## Documentation
+## 🖼️ Tampilan Antarmuka (UI)
+Dokumentasi desain yang telah tersedia meliputi:
+1.  **Beranda**: Halaman utama informasi bimbel.
+2.  **LMS & Tambah Course**: Fitur manajemen pembelajaran bagi guru dan siswa.
+3.  **Layanan**: Informasi paket bimbingan yang ditawarkan.
+4.  **Kontak dan Pendaftaran**: Formulir interaksi bagi calon siswa.
 
-- Read our [User documentation][3]
-- Discover our [developer documentation][5]
-- Take a look at our [demo site][4]
+## 🛠️ Teknologi yang Digunakan
+* **Platform:** Moodle (Learning Management System)
+* **Server Lokal:** Laragon
+* **Bahasa Pemrograman:** PHP, JavaScript
+* **Lisensi:** GNU General Public License v3.0
 
-## Community
+## 🚀 Cara Instalasi (Lokal)
+1.  Clone repositori ini ke direktori `www` di Laragon Anda:
+    ```bash
+    git clone [https://github.com/MuhamadHata/Projek-Website-Bimbel-QTA.git](https://github.com/MuhamadHata/Projek-Website-Bimbel-QTA.git)
+    ```
+2.  Pastikan Apache dan MySQL di Laragon sudah menyala.
+3.  Buat database baru di MySQL.
+4.  Akses proyek melalui browser (misal: `http://localhost/Projek-Website-Bimbel-QTA`) dan ikuti langkah instalasi Moodle.
 
-[moodle.org][1] is the central hub for the Moodle Community, with spaces for educators, administrators and developers to meet and work together.
+## 📄 Lisensi
+Proyek ini dilisensikan di bawah **GPL-3.0 License**. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
-You may also be interested in:
-
-- attending a [Moodle Moot][6]
-- our regular series of [developer meetings][7]
-- the [Moodle User Association][8]
-
-## Installation and hosting
-
-Moodle is Free, and Open Source software. You can easily [download Moodle][9] and run it on your own web server, however you may prefer to work with one of our experienced [Moodle Partners][10].
-
-Moodle also offers hosting through both [MoodleCloud][11], and our [partner network][10].
-
-## License
-
-Moodle is provided freely as open source software, under version 3 of the GNU General Public License. For more information on our license see
-
-[1]: https://moodle.org
-[2]: https://moodle.com
-[3]: https://docs.moodle.org/
-[4]: https://sandbox.moodledemo.net/
-[5]: https://moodledev.io
-[6]: https://moodle.com/events/mootglobal/
-[7]: https://moodledev.io/general/community/meetings
-[8]: https://moodleassociation.org/
-[9]: https://download.moodle.org
-[10]: https://moodle.com/partners
-[11]: https://moodle.com/cloud
-[12]: https://moodledev.io/general/license
-=======
-# Projek-Website-Bimbel-QTA
->>>>>>> e63c69e1bbe93a464f36141c0f2062d676f45ac0
+---
+Dikembangkan oleh [MuhamadHata](https://github.com/MuhamadHata)
