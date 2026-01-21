@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #004d99;      /* Biru Tua QTA */
+    --accent-red: #cc0000;         /* Merah untuk tombol aksen */
+    --light-bg: #f4f6f9;           /* Latar belakang terang (Untuk section fitur) */
+    --dark-text: #343a40;          /* Teks gelap */
+    --gradient-start: #004d99;
+    --gradient-end: #00bfff;
+}
+
+/* --- KOREKSI KRITIS: NAVBAR PUTIH --- */
+.navbar-custom {
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.navbar-custom .nav-link, 
+.navbar-custom .navbar-brand {
+    /* Warna teks default untuk Navbar Putih menjadi Biru Tua */
+    color: var(--primary-color) !important; 
+    font-weight: bold;
+}
+.navbar-toggler-icon {
+    filter: none; 
+}
+
+/* EFEK HOVER DAN ACTIVE MENJADI MERAH */
+.navbar-custom .nav-link:hover, 
+.navbar-custom .nav-link.active {
+    color: var(--accent-red) !important; 
+    border-bottom: 2px solid var(--accent-red); 
+    padding-bottom: 5px; 
+}
+
+
+/* --- OVERRIDE WARNA AKSEN UMUM --- */
+.bg-primary, .btn-primary {
+    background-color: var(--accent-red) !important;
+}
+.text-primary, .btn-outline-primary {
+    color: var(--primary-color) !important;
+}
+.text-warning, .text-success, .text-info { 
+    color: var(--accent-red) !important;
+}
+.badge.bg-success {
+    background-color: var(--accent-red) !important;
+}
+
+/* --- KOREKSI WARNA TOMBOL NAV BAR PADA LATAR BELAKANG PUTIH --- */
+/* Tombol Daftar Sekarang (btn-warning) diset Merah */
+.navbar-custom .btn-warning {
+    background-color: var(--accent-red) !important;
+    border-color: var(--accent-red) !important;
+    color: white !important;
+}
+/* Tombol Login Siswa (btn-outline-warning) diset Merah Garis Luar */
+.navbar-custom .btn-outline-warning {
+    color: var(--accent-red) !important;
+    border-color: var(--accent-red) !important;
+    background-color: transparent !important;
+}
+.navbar-custom .btn-outline-warning:hover {
+    background-color: var(--accent-red) !important;
+    color: white !important;
+}
+
+
+/* --- GRADIENT SECTION (Untuk Banner Utama) --- */
+.bg-dynamic-section {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%) !important;
+    color: white !important; 
+    padding: 120px 0 !important;
+}
+.bg-dynamic-section h1, .bg-dynamic-section h2, .bg-dynamic-section p, .bg-dynamic-section .lead {
+    color: white !important; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); 
+}
+.bg-dynamic-section .btn-primary { 
+    background-color: var(--accent-red) !important;
+    border-color: var(--accent-red) !important;
+    color: white !important;
+}
+/* Tombol Daftar Sekarang (Outline Putih) default */
+.bg-dynamic-section .btn-outline-primary { 
+    color: white !important;
+    border-color: white !important;
+}
+/* KRITIS FIX: Saat Daftar Sekarang di-HOVER/DITEKAN di Banner Biru */
+.bg-dynamic-section .btn-outline-primary:hover {
+    /* Latar belakang menjadi PUTIH */
+    background-color: white !important;
+    /* Teks menjadi MERAH (Kontras) */
+    color: var(--accent-red) !important; 
+    /* Garis pinggir tetap Putih, memastikan konsistensi */
+    border-color: white !important;
+}
+
+/* --- LATAR BELAKANG SECTION FITUR --- */
+.bg-light-bg {
+    background-color: var(--light-bg) !important;
+}
+
+/* --- ANIMASI & KREDIBILITAS --- */
+.card {
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
