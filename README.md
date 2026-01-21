@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Moodle
 
 <p align="center"><a href="https://moodle.org" target="_blank" title="Moodle Website">
@@ -46,3 +47,6 @@ Moodle is provided freely as open source software, under version 3 of the GNU Ge
 [10]: https://moodle.com/partners
 [11]: https://moodle.com/cloud
 [12]: https://moodledev.io/general/license
+=======
+# Projek-Website-Bimbel-QTA
+>>>>>>> e63c69e1bbe93a464f36141c0f2062d676f45ac0
